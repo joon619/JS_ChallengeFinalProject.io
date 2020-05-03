@@ -1,1 +1,27 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JH practice site</title>
+        <meta charset='utf-8'/>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <h1 id="title" class="btn">This works!</h1>
+        <!-- js파일은 항상 Body 아래에 있어야함  -->
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        <from class="js-form form">
+            <input type = "text" placeholder="what is your name?"/>
+        </from>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+            <input type ="text" placeholder="write a to do"/>
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+    </body>
+</html>
