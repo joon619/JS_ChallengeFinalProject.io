@@ -8,7 +8,7 @@ function paintImage(imgNumber){
     image.src = `./images/${imgNumber +1}.jpg`;
     image.classList.add("bgImage");
     //prepend대신 appendChild도 가능
-    body.prepend(image);
+    body.appendChild(image);
 }
 
 function genRandom(){
